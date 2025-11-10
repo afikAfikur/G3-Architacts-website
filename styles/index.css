@@ -93,6 +93,52 @@ header{
    
     background-color: rgba(255, 144, 14, 0.1);
 }
+.list{
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0px;
+}
+.quick{
+    color:rgba(114, 114, 114, 1) ;
+    
+}
+.features{
+    color:rgba(255, 144, 14, 1) ;
+    margin: 0px;
+}
+.there{
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 24px;
+}
+.first_sec{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+}
+.img_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.inside{
+    width: 537px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ex_1{
+    margin-top: 32px;
+    margin-left: 0px;
+}
+
+
+/* Here comes the media query  */
 @media screen and (max-width: 576px) {
     .tittle {
         height: auto;
