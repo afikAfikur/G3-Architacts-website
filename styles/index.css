@@ -1,0 +1,79 @@
+
+.work-sans-first {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.head{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+.links_above{
+    font-size: 18px;
+    font-weight: normal;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+}
+.tittle{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head_1{
+    font-size: 64px;
+    font-weight: bold;
+    margin:  0px;
+}
+.pera{
+    font-size: 16px;
+    font-weight: normal;
+}
+.explore_buttpn{
+    width:180px ;
+    height: 64px;
+    border-radius: 8px;
+    background-color:rgba(255, 144, 14, 1) ;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-top:33px ;
+}
+.banner{
+    margin-top: 80px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.banner_titles{
+    
+    width: 862px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
