@@ -136,8 +136,86 @@ header{
     margin-top: 32px;
     margin-left: 0px;
 }
-
-
+.love{
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0px;
+    padding-left: 5px;
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    border-radius: 2px;
+}
+.hiji{
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0px;
+}
+.biji{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px;
+}
+.container_ingri_img{
+    width: 500px;
+    height: 982px;
+    background-image:url(/images/architect.png) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.flexing{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    gap: 146px;
+    justify-content: center;
+    align-items: center;
+}
+.container_ingri{
+    width: 400px;
+    height: 982px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.year{
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0px;
+}
+.experience{
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0px;
+}
+.ten_year{
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 692px;
+    bottom: -70px;
+    z-index: 1;
+}
+.second_se{
+    position: relative;
+    
+}
+.whitning{
+   
+}
+.items_inside{
+    padding: 30px 42px;
+ background-color: rgba(255, 255, 255, 1);
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+     
+     border-radius: 8px;
+}
 /* Here comes the media query  */
 @media screen and (max-width: 576px) {
     .tittle {
