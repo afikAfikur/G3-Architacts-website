@@ -189,5 +189,22 @@ header{
         text-align: center;
         margin-right: 25px;
     }
+    .first_sec{
+        flex-direction: column-reverse;
+    }
+    .inside{
+        width: 90%;
+       margin-left: 0px auto;
+    }
+    .container_inside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img_container{
+        display: flex;
+        flex-direction: column;
+    }
     
 }
