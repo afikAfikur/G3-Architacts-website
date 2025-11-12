@@ -269,6 +269,51 @@ header{
     font-size: 20px;
     color: rgba(66, 66, 66, 1);
 }
+.our_sponser{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 180px;
+    width: 400px;
+    height: auto;
+    margin-bottom: 50px;
+}
+.third-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.spons_container{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content:center ;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.copyright{
+    width: 1200px;
+    height: 80px;
+    background-color: rgba(255, 244, 231, 1);
+    color: rgba(66, 66, 66, 1);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    box-shadow: 0.5px  0.5px ;
+}
+.right{
+    font-size: 20PX;
+    font-weight: normal;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Here comes the media query  */
 @media screen and (max-width: 576px) {
     .tittle {
@@ -375,5 +420,15 @@ header{
         column-gap: 5px;
         row-gap: 5px;
     }
+    .spons_container{
+        flex-direction: column;
+        gap: 50px;
+    }
+   .copyright{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+   }
    
 }
