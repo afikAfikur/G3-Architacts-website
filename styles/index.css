@@ -216,6 +216,59 @@ header{
      
      border-radius: 8px;
 }
+.some{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.facts{
+    height: 130px;
+    width: 400px;
+    margin-left: 240px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.variations{
+    margin: 0px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+}
+.num{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(66, 66, 66, 1);
+}
+.aw{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(66, 66, 66, 1);
+}
 /* Here comes the media query  */
 @media screen and (max-width: 576px) {
     .tittle {
@@ -308,4 +361,19 @@ header{
         height: auto;
         aspect-ratio: 342/200;
     }
+    .facts{
+        margin: 100px auto;
+        width: 90%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .boxes{
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+   
 }
